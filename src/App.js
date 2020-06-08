@@ -73,9 +73,7 @@ class App extends Component {
             <blockquote id="text" style={styleblockQuote}>
               <b> <i>{this.state.quote}</i></b>
               <div className="row">
-                <div className="col-8">
-                </div>
-                <div className="col-4" style={styleAuthor} id="author">
+                <div className="col-8 text-right" style={styleAuthor} id="author">
                   <p>-{this.state.author}</p>
                 </div>
               </div>
