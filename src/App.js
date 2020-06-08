@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
 const styles = {
   fontFamily: "ubuntu"
 };
 const styleblockQuote = {
   borderColor: "#000000",
   borderStyle: "solid",
-  padding: "20px 10px 15px 20px",
+  padding: "50px 10px 15px 20px",
   fontSize: "25px",
   fontFamily: "Roboto",
-  color:"white"
 
 }
 const styleChangeQuote = {
@@ -21,12 +18,8 @@ const styleChangeQuote = {
 }
 
 const styleAuthor = {
-  // borderColor: "#000000",
-  // borderStyle: "solid",
-  // padding: "20px 10px 15px 20px",
   fontSize: "20px",
   fontFamily: "Courier",
-  color:"white"
 
 }
 const authorWithQuote = {
@@ -71,7 +64,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="container" id="quote-box">
+      <div className="container" style={{marginTop:140}}id="quote-box">
         <div className="row">
           <div className="col-2">
           </div>
