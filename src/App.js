@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 const styles = {
   fontFamily: "ubuntu"
@@ -37,10 +36,10 @@ var randomProperty = function (obj) {
   var keys = Object.keys(obj);
   return obj[keys[keys.length * Math.random() << 0]];
 };
-{var index  = Math.floor(Math.random() * Object.keys(authorWithQuote).length);
+
+  var index  = Math.floor(Math.random() * Object.keys(authorWithQuote).length);
 var auth = Object.keys(authorWithQuote)[index];
 var qt = authorWithQuote[auth];
-}
 console.log(randomProperty(authorWithQuote));
 class App extends Component {
   constructor(props) {
@@ -80,7 +79,7 @@ class App extends Component {
             </blockquote>
             <div className="row">
               <div className="col-2 ">
-              <a class="twitter-share-button" id ="tweet-quote"
+              <a class="twitter-share-button" id="tweet-quote"
   href={"https://twitter.com/intent/tweet?text="+this.state.quote}>Tweet</a>
               </div>
               <div className="col-8">
